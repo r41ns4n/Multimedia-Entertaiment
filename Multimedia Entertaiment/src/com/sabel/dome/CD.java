@@ -11,6 +11,8 @@ public class CD extends AnyD {
 		this.titleanzahl = titleanzahl;
 	}
 
+	@ Override // Überprüfung ob Methode in Elternklasse vorhanden
+	
 	public void ausgeben() {
 		System.out.println("CD:\t\t" + title + " (" + spielzeit + " Min)");
 		System.out.println("\t\t" + kuenstler);

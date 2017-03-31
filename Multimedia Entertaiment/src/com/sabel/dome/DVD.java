@@ -10,6 +10,7 @@ public class DVD extends AnyD {
 
 	}
 
+	@ Override // Überprüfung ob Methode in Elternklasse vorhanden
 	public void ausgeben() {
 		System.out.println("DVD:\t" + title + " (" + spielzeit + " Min)");
 		System.out.println("\t" + regisseur);
